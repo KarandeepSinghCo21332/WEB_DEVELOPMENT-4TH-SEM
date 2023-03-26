@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #7: Simple playlist</title>
+    <link rel="stylesheet" href="exercise7b.css">
+    <script>
+        /* TODO this is for you to complete */
+        function Button() {
+            var S_Input = document.getElementById("songTextInput");
+            var S_Name = S_Input.value;
+
+            if (S_Name == "") {
+                alert("Please enter a song");
+            }
+            else {
+                var li = document.createElement("li");
+                li.innerHTML = S_Name;
+                var ul = document.getElementById("playlist");
+                var del = document.createElement("img");
+                del.src = "images/deleteicon.png";
+                del.className = "delete";
+                del.onclick = deleteSong;
+                li.appendChild(del);
+                ul.appendChild(li);
+            }
+        }
+
+        function deleteSong() {
+            var song = this.parentNode;
+            song.parentNode.removeChild(song);
+        }
+
+        window.onload = function () {
+            document.getElementById("Button").onclick = Button;
+
+        }
+    </script>
+</head>
+<body>
+
+<form>
+    <input type="text" id="songTextInput" size="40" placeholder="Song name">
+    <input type="button" id="Button" value="Add Song">
+</form>
+
+<ul id="playlist">
+</ul>
+
+</body>
+</html>
