@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+  <order_id>12345</order_id>
+  <description>Order description.</description>
+  <RequestDate>08-09-2021</RequestDate>
+
+  <item>
+    <book>
+      <book_id>1</book_id>
+      <book_name>The Adventures of Sherlock Holmes</book_name>
+      <genre>Mystery</genre>
+      <publish_date>14-10-1892</publish_date>
+      <authors>
+        <bio>Sir Arthur Ignatius Conan Doyle KStJ DL (22 May 1859 – 7 July 1930) was a British writer and physician.</bio>
+        <first_name>Arthur</first_name>
+        <last_name>Doyle</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>250</price>
+  </item>
+
+  <item>
+    <book>
+      <book_id>2</book_id>
+      <book_name>Anna Karenina</book_name>
+      <genre>realist novel</genre>
+      <publish_date>19-02-1878</publish_date>
+      <authors>
+        <bio>Leo Tolstoy, was a Russian writer who is regarded as one of the greatest authors of all time.</bio>
+        <first_name>Leo</first_name>
+        <last_name>Tolstoy</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>300</price>
+  </item>
+
+  <item>
+    <book>
+      <book_id>3</book_id>
+      <book_name>Madame Bovary</book_name>
+      <genre>realist novel</genre>
+      <publish_date>15-12-1856</publish_date>
+      <authors>
+        <bio>Gustave Flaubert was a French novelist. Highly influential, he has been considered the leading exponent of literary realism in his country.</bio>
+        <first_name>Gustave</first_name>
+        <last_name>Flaubert</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>1932</price>
+  </item>
+
+  <item>
+    <book>
+      <book_id>4</book_id>
+      <book_name>The Last Resort</book_name>
+      <genre>Thriller</genre>
+      <publish_date>2020-12-01</publish_date>
+      <authors>
+        <bio>Author Susi Holliday's complete list of books and series in order, with the latest releases, covers, descriptions and availability.</bio>
+        <first_name>Susi</first_name>
+        <last_name>Holliday</last_name>
+        <pen_name>SJI</pen_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>478</price>
+  </item>
+
+  <item>
+    <book>
+      <book_id>5</book_id>
+      <book_name>War and Peace</book_name>
+      <genre>Novel</genre>
+      <publish_date>07-02-1867</publish_date>
+      <authors>
+        <bio>Leo Tolstoy, was a Russian writer who is regarded as one of the greatest authors of all time.</bio>
+        <first_name>Leo</first_name>
+        <last_name>Tolstoy</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>150</price>
+  </item>
+
+  <item>
+    <book>
+      <book_id>6</book_id>
+      <book_name>Dune</book_name>
+      <genre>Science-Fiction</genre>
+      <publish_date>15-02-1965</publish_date>
+      <authors>
+        <bio>Franklin Patrick Herbert Jr. was an American science fiction author best known for the 1965 novel Dune and its five sequels, born in 8 October 1920, Tacoma, Washington, United States</bio>
+        <first_name>Frank</first_name>
+        <last_name>Herbert</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>279</price>
+  </item>
+
+  <item>
+    <book>
+      <book_id>7</book_id>
+      <book_name>The Great Gatsby</book_name>
+      <genre>Tragedy</genre>
+      <publish_date>10-04-1925</publish_date>
+      <authors>
+        <bio>Francis Scott Key Fitzgerald was an American novelist, essayist, screenwriter, and short story writer.</bio>
+        <first_name>Francis</first_name>
+        <last_name>Scott</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>144</price>
+  </item>
+
+  <item>
+    <book>
+      <book_id>008</book_id>
+      <book_name>Sacred Wood and Major Early Essays</book_name>
+      <genre>Drama</genre>
+      <publish_date>2000-02-01</publish_date>
+      <authors>
+        <bio>T.S. Eliot, American-English poet, playwright, literary critic, and editor, a leader of the Modernist movement in poetry in such works as The Waste Land</bio>
+        <first_name>Thomas Stearns</first_name>
+        <last_name>Eliot</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>812</price>
+  </item>
+
+  <item>
+    <book>
+      <book_id>9</book_id>
+      <book_name>The Forever War</book_name>
+      <genre>Science-Fiction</genre>
+      <publish_date>2018-07-26</publish_date>
+      <authors>
+        <bio>Joe William Haldeman is an American science fiction author. He is best known for his novel The Forever War, born in 9 June 1943 (age 78 years), Oklahoma City, Oklahoma, United States</bio>
+        <first_name>Joe</first_name>
+        <last_name>Haldeman</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>485</price>
+  </item>
+
+  <item>
+    <book>
+      <book_id>10</book_id>
+      <book_name>The Adventures of Huckleberry Finn</book_name>
+      <genre>novel</genre>
+      <publish_date>10-12-1884</publish_date>
+      <authors>
+        <bio>Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer.</bio>
+        <first_name>mark</first_name>
+        <last_name>Twain</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>89</price>
+  </item>
+</order>
