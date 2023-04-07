@@ -1,0 +1,39 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="order">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:int" name="order_id"/>
+        <xs:element type="xs:string" name="description"/>
+        <xs:element type="xs:string" name="RequestDate"/>
+        <xs:element name="item" maxOccurs="30" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="book">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="book_id"/>
+                    <xs:element type="xs:string" name="book_name"/>
+                    <xs:element type="xs:string" name="genre"/>
+                    <xs:element type="xs:string" name="publish_date"/>
+                    <xs:element name="authors" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="bio"/>
+                          <xs:element type="xs:string" name="first_name"/>
+                          <xs:element type="xs:string" name="last_name"/>
+                          <xs:element type="xs:string" name="pen_name" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:byte" name="quantity"/>
+              <xs:element type="xs:short" name="price"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
